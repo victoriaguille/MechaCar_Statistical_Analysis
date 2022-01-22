@@ -8,3 +8,9 @@ lm(formula = mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clea
 
 #perform summary of multiple linear regression
 summary(lm(formula = mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data = mechacar_df))
+
+#create suspension coil dataframe
+suscoil <- read.csv('Suspension_Coil.csv')
+
+#create a summary of dataframe
+total_summary <- summarize(suscoil, Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
