@@ -14,3 +14,6 @@ suscoil <- read.csv('Suspension_Coil.csv')
 
 #create a summary of dataframe
 total_summary <- summarize(suscoil, Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
+
+#create a grouped by lot summary dataframe
+lot_summary <- suscoil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI), .groups = "keep")
