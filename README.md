@@ -7,5 +7,8 @@ When reviewing the results of the multiple linear regression, two variables prov
 
 ## Summary Statistics on Suspension Coils
 ####
-lot_summary and total_summary explanation - 
+When reviewing the suspension coils' PSI data for all manufacturing lots, the variance is roughly 62 pounds per square inch. This means that overall, the manufacturing data meets the design specifications for the MechaCar suspension coils. However, the variance summary data is rather different when grouping the statistics by each lot. Manufacturing lots 1 and 2 have a variance of 1 and 7 pounds per square inch respectively. Manufacturing lot 3 has a variance of 170 for the PSI data. This third lot exceeds the suspension coil threshold significantly and will need to be addressed independently of the other lots in order to ensure the design specifications for the MechaCar suspension coils are followed.
+####
+[lot summary](link)
+
 
