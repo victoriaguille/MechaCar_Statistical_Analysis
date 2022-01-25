@@ -22,9 +22,4 @@ The design specifications for the MechaCar suspension coils is 1500 PSI per vehi
 
 ## Study Design: MechaCar vs Competition
 ####
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+A statistical analysis between MechaCar and the competition could provide important feedback for future design specifications for the MechaCar vehicles. Keeping the interest of the consumer in mind, it would be best to compare fuel efficiency, horse power, and maintenance cost. Much like what has been done with comparing manufacturing lots' PSI metrics within the MechaCar data, the same could be done with a category such as fuel efficiency or maintenance cost. Looking at purely fuel efficiency data between MechaCar and the competition, the null hypothesis would be that either vehicle have the same fuel efficiency. The alternative hypothesis would be that one of the companies will have a vehicle that is not as efficient as the other. To test the hypothesis, a two-sample t-test would be performed on both sets of data for the fuel efficiency metrics. This particular test would be used to the test the hypothesis as the data type is continuous and two samples (MechaCar and the competition) are being compared. From there, the statistical test will give us an idea of whether there is a null or alternative hypothesis. 
